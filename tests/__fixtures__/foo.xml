@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+  <duplication lines="1" tokens="28">
+    <file path="/home/PhpstormProjects/GoogleTranslate/vendor/composer/ClassLoader.php" line="13"/>
+    <file path="/home/PhpstormProjects/SlackNotifications/vendor/composer/ClassLoader.php" line="13"/>
+    <codefragment>namespace Composer\Autoload;</codefragment>
+  </duplication>
+  <duplication lines="2" tokens="18">
+    <file path="/home/PhpstormProjects/GoogleTranslate/vendor/composer/ClassLoader.php" line="13"/>
+    <file path="/home/PhpstormProjects/SlackNotifications/vendor/composer/ClassLoader.php" line="13"/>
+    <codefragment>$x = 1;
+  $y = 2;
+</codefragment>
+  </duplication>
+</pmd-cpd>

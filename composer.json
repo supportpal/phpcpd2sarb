@@ -1,0 +1,34 @@
+{
+    "name": "supportpal/phpcpd2sarb",
+    "description": "A tool to convert phpmd-phpcpd XML to sarb format.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kieran Brahney",
+            "email": "kieran@supportpal.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "ext-simplexml": "*",
+        "symfony/console": "^4.4|^5.0"
+    },
+    "autoload": {
+        "psr-4": { "SupportPal\\Phpcpd2Sarb\\": "src" }
+    },
+    "bin": ["phpcpd2sarb"],
+    "require-dev": {
+        "supportpal/coding-standard": "^0.4.0",
+        "phpstan/phpstan": "^0.12.88",
+        "phpunit/phpunit": "^8.5|^9.5"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "7.2.5"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

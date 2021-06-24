@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="SupportPal">
+    <description>SupportPal coding standards (based on PSR2).</description>
+
+    <arg name="extensions" value="php" />
+    <arg name="parallel" value="4" />
+    <arg value="ns" />
+
+    <file>src</file>
+    <file>tests</file>
+
+    <exclude-pattern>tests/__fixtures__/</exclude-pattern>
+
+    <rule ref="vendor/supportpal/coding-standard" />
+</ruleset>
+
