@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/supportpal/phpcpd2sarb/actions"><img src="https://img.shields.io/github/workflow/status/supportpal/phpcpd2sarb/ci" alt="Build Status"></a>
+<a href="https://github.com/supportpal/phpcpd2sarb/actions"><img src="https://img.shields.io/github/workflow/status/supportpal/phpcpd2sarb/test" alt="Build Status"></a>
 <a href="https://packagist.org/packages/supportpal/phpcpd2sarb"><img src="https://img.shields.io/packagist/v/supportpal/phpcpd2sarb" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/supportpal/phpcpd2sarb"><img src="https://img.shields.io/packagist/l/supportpal/phpcpd2sarb" alt="License"></a>
 </p>
