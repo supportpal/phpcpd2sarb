@@ -57,6 +57,10 @@ class Phpcpd
 
     private function processViolation(SimpleXMLElement $duplication): Sarb
     {
+        if (! isset($duplication->file[0]['path']) || ! isset($duplication->file[0]['line'])) {
+		   	throw new InvalidArgumentException('Unexpected SimpleXMLElement content');
+		}
+
         $files = [];
         foreach ($duplication->file as $item) {
             $files[] = $item['path'];
