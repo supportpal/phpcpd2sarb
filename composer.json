@@ -20,7 +20,7 @@
     "bin": ["phpcpd2sarb"],
     "require-dev": {
         "supportpal/coding-standard": "^0.4.0",
-        "phpstan/phpstan": "^0.12.88",
+        "phpstan/phpstan": "^0.12.88 || ^1.0.0",
         "phpunit/phpunit": "^8.5|^9.5"
     },
     "config": {
